@@ -23,7 +23,7 @@ const check = require("@jamilservices/types-helper");
 const example = (name, value) => {
     try {
         const t_name = check({types: "string", data: name});
-        const t_number = check({types: "number", data: value});
+        const t_number = check({types: ["number", "string"], data: value});
         if(typeof t_name === "object") throw t_name.error;
         if(typeof t_number === "object") throw t_number.error;
 
