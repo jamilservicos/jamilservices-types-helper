@@ -12,9 +12,8 @@ Personal type validation help module for javascript.
 [![stars - jamilservices-types-helper](https://img.shields.io/github/stars/jamilservicos/jamilservices-types-helper?style=social)](https://github.com/jamilservicos/jamilservices-types-helper)
 [![forks - jamilservices-types-helper](https://img.shields.io/github/forks/jamilservicos/jamilservices-types-helper?style=social)](https://github.com/jamilservicos/jamilservices-types-helper)
 [![issues - jamilservices-types-helper](https://img.shields.io/github/issues/jamilservicos/jamilservices-types-helper)](https://github.com/jamilservicos/jamilservices-types-helper/issues)
+[![GitHub release](https://img.shields.io/github/release/jamilservicos/jamilservices-types-helper?include_prereleases=&sort=semver)](https://github.com/jamilservicos/jamilservices-types-helper/releases/)
 
-<!--[![GitHub release](https://img.shields.io/github/release/jamilservicos/jamilservices-types-helper?include_prereleases=&sort=semver)](https://github.com/jamilservicos/jamilservices-types-helper/releases/)
--->
 [![CodeQL](https://github.com/jamilservicos/jamilservices-types-helper/workflows/CodeQL/badge.svg)](https://github.com/jamilservicos/jamilservices-types-helper/actions?query=workflow:"CodeQL")
 [![Known Vulnerabilities](https://snyk.io/test/github/jamilservicos/jamilservices-types-helper/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jamilservicos/jamilservices-types-helper?targetFile=package.json "Known Vulnerabilities")
 
@@ -24,9 +23,15 @@ Personal type validation help module for javascript.
 
 Installation ways:
 
+- from github:
 ```
 npm install --save git+https://github.com/jamilservicos/jamilservices-types-helper.git
 yarn add git+https://github.com/jamilservicos/jamilservices-types-helper.git
+```
+- from npm:
+```
+npm install --save @jamilservices/types-helper
+yarn add @jamilservices/types-helper
 ```
 
 
