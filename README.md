@@ -4,7 +4,7 @@ Personal type validation help module for javascript.
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=14-blue?logo=node.js&logoColor=white)](https://nodejs.org)
-[![dependency - @jamilservices/types-helper](https://img.shields.io/badge/dependency-%40jamilservices%2Ftypes--helper-blue?logo=node.js&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
+[![npm - @jamilservices/types-helper](https://img.shields.io/badge/npm-%40jamilservices%2Ftypes--helper-blue?logo=node.js&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
 <!--
 [![Package - @jamilservices/types-helper](https://img.shields.io/github/package-json/dependency-version/jamilservicos/jamilservices-types-helper/@jamilservices/types-helper?logo=node.js&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
 -->
