@@ -6,14 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## 0.1.0 - 2021-06-06
+## [0.1.0](https://github.com/jamilservicos/jamilservices-types-helper/tree/0.1.0) - 2021-06-06
 
 ### Added
 
 - Custom types: 'integer', 'array', 'buffer', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32'.
 - Add CHANGELOG.
 - "util" module (native to nodejs), added to support custom types.
-- Tag and Release: 0.1.0
+- Tag and Release: [0.1.0](https://github.com/jamilservicos/jamilservices-types-helper/releases/tag/0.1.0)
 
 ### Changed
 
