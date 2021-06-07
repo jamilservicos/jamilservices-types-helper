@@ -43,7 +43,7 @@ const check = require("@jamilservices/types-helper");
 
 /**
  * @param {string} name
- * @param {number} value
+ * @param {(number || string)} value
  * @return {boolean}
  */
 const example = (name, value) => {
