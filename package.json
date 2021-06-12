@@ -6,14 +6,12 @@
   "homepage": "https://github.com/jamilservicos/jamilservices-types-helper/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamilservicos/jamilservices-types-helper.git"
+    "url": "git+https://github.com/jamilservicos/jamilservices-types-helper.git"
   },
-  "bugs": "https://github.com/jamilservicos/jamilservices-types-helper/issues",
-  "author": {
-    "name": "Jamil Serviços",
-    "email": "jamilservicos@gmail.com",
-    "url": "https://github.com/jamilservicos"
+  "bugs": {
+    "url": "https://github.com/jamilservicos/jamilservices-types-helper/issues"
   },
+  "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
   "license": "MIT",
   "engines": {
     "node": ">=14"
