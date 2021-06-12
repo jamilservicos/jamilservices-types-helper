@@ -55,7 +55,7 @@ const example = (name, value) => {
 
         return true;
     } catch (err) {
-        console.error(err);
+        console.log(err);
     }
 };
 

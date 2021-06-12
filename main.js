@@ -6,7 +6,7 @@ class TypeException extends Error {
     constructor(data, type) {
         const code = "TypeError";
         let message = `Argument type ${typeof data} is not assignable to parameter type ${type}`;
-        if(Array.isArray(type)) message = `Argument type ${typeof data} is not assignable to parameter types: ${type.join(" ,")}`;
+        if(Array.isArray(type)) message = `Argument type ${typeof data} is not assignable to parameter types: ${type.join(", ")}`;
         const response = (data && type) ? `${code}: ${message}` : code;
         super(response);
         this.name = this.code = code;
