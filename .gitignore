@@ -109,3 +109,4 @@ dist
 # Others
 **/yarn.lock
 **/package-lock.json
+.scripts

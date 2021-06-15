@@ -1,5 +1,5 @@
-# @jamilservices/types-helper
-Personal type validation help module for javascript.
+### @jamilservices/types-helper
+####Personal type validation help module for javascript.
 
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
@@ -27,7 +27,7 @@ Personal type validation help module for javascript.
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/jamilservicos/jamilservices-types-helper/blob/main/LICENSE)
 
 
-Installation ways:
+####Installation ways:
 
 - from github:
 ```
@@ -40,10 +40,20 @@ npm install --save @jamilservices/types-helper
 yarn add @jamilservices/types-helper
 ```
 
+> ###Object Parameters:
+>**data:** *value to be validated.*  
+>**types:** *single type informed as string(example1), or several types informed as string inside an array(example2).*  
+>**example1:**
+>```
+>types: "number"
+>```  
+>**example2:**
+>```
+>types: ["number", "integer"]
+>```  
 
-Example of use:
-
-```
+####Example of use:  
+~~~javascript
 "use strict";
 const check = require("@jamilservices/types-helper");
 
@@ -66,13 +76,13 @@ const example = (name, value) => {
 };
 
 example("string",1);
-```
+~~~  
 
-## License
-Released under [MIT](/LICENSE) by [@jamilservicos](https://github.com/jamilservicos).
-- You can freely modify and reuse.
-- The original license must be included with copies of this software.
-- Please link back to this repo if you use a significant portion the source code.
+## License  
+Released under [MIT](/LICENSE) by [@jamilservicos](https://github.com/jamilservicos).  
+* You can freely modify and reuse.
+* The original license must be included with copies of this software.
+* Please link back to this repo if you use a significant portion the source code.
 
 
 ## 👩‍💻💻 Technologies
