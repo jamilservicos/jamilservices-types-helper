@@ -1,5 +1,5 @@
-### @jamilservices/types-helper
-####Personal type validation help module for javascript.
+### @jamilservices/types-helper  
+#### Personal type validation help module for javascript.
 
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
@@ -27,8 +27,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/jamilservicos/jamilservices-types-helper/blob/main/LICENSE)
 
 
-####Installation ways:
-
+#### Installation ways:  
 - from github:
 ```
 npm install --save git+https://github.com/jamilservicos/jamilservices-types-helper.git
@@ -40,7 +39,7 @@ npm install --save @jamilservices/types-helper
 yarn add @jamilservices/types-helper
 ```
 
-> ###Object Parameters:
+> ### Object Parameters:  
 >**data:** *value to be validated.*  
 >**types:** *single type informed as string(example1), or several types informed as string inside an array(example2).*  
 >**example1:**
@@ -52,7 +51,7 @@ yarn add @jamilservices/types-helper
 >types: ["number", "integer"]
 >```  
 
-####Example of use:  
+#### Example of use:  
 ~~~javascript
 "use strict";
 const check = require("@jamilservices/types-helper");
