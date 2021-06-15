@@ -4,15 +4,21 @@ Personal type validation help module for javascript.
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=14-blue?logo=node.js&logoColor=white)](https://nodejs.org)
-[![npm - @jamilservices/types-helper](https://img.shields.io/badge/npm-%40jamilservices%2Ftypes--helper-blue?logo=node.js&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
-<!--
-[![Package - @jamilservices/types-helper](https://img.shields.io/github/package-json/dependency-version/jamilservicos/jamilservices-types-helper/@jamilservices/types-helper?logo=node.js&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
--->
+[![npm - @jamilservices/types-helper](https://img.shields.io/badge/npm-%40jamilservices%2Ftypes--helper-blue?logo=npm&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
+
 [![jamilservicos - jamilservices-types-helper](https://img.shields.io/static/v1?label=jamilservicos&message=jamilservices-types-helper&color=blue&logo=github)](https://github.com/jamilservicos/jamilservices-types-helper)
 [![stars - jamilservices-types-helper](https://img.shields.io/github/stars/jamilservicos/jamilservices-types-helper?style=social)](https://github.com/jamilservicos/jamilservices-types-helper)
 [![forks - jamilservices-types-helper](https://img.shields.io/github/forks/jamilservicos/jamilservices-types-helper?style=social)](https://github.com/jamilservicos/jamilservices-types-helper)
 [![issues - jamilservices-types-helper](https://img.shields.io/github/issues/jamilservicos/jamilservices-types-helper)](https://github.com/jamilservicos/jamilservices-types-helper/issues)
 [![GitHub release](https://img.shields.io/github/release/jamilservicos/jamilservices-types-helper?include_prereleases=&sort=semver)](https://github.com/jamilservicos/jamilservices-types-helper/releases/)
+
+[![Libraries.io - @jamilservices/types-helper](https://img.shields.io/badge/Libraries.io-%40jamilservices%2Ftypes--helper-blue?logo=Libraries.io&logoColor=white)](https://libraries.io/npm/@jamilservices%2Ftypes-helper)
+[![Libraries.io SourceRank, scoped npm package](https://img.shields.io/librariesio/sourcerank/npm/@jamilservices/types-helper?logo=Libraries.io&logoColor=white&color=green)](https://libraries.io/npm/@jamilservices%2Ftypes-helper)
+
+![npm (custom registry)](https://img.shields.io/npm/v/@jamilservices/types-helper/latest?registry_uri=https%3A%2F%2Fregistry.npmjs.com&logo=npm)
+![npm bundle size (version)](https://img.shields.io/bundlephobia/min/@jamilservices/types-helper/latest?logo=npm)
+![npm bundle size (version)](https://img.shields.io/bundlephobia/minzip/@jamilservices/types-helper/latest?logo=npm)
+![npm downloads](https://img.shields.io/npm/dt/@jamilservices/types-helper.svg?logo=npm&label=total%20downloads)
 
 [![CodeQL](https://github.com/jamilservicos/jamilservices-types-helper/workflows/CodeQL/badge.svg)](https://github.com/jamilservicos/jamilservices-types-helper/actions?query=workflow:"CodeQL")
 [![Known Vulnerabilities](https://snyk.io/test/github/jamilservicos/jamilservices-types-helper/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jamilservicos/jamilservices-types-helper?targetFile=package.json "Known Vulnerabilities")
