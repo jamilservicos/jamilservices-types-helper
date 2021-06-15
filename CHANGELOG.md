@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - added "dependabot" config file
+- Tag and Release: [0.1.2](https://github.com/jamilservicos/jamilservices-types-helper/releases/tag/0.1.2)
 
 ### Changed
 

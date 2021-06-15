@@ -1,5 +1,5 @@
-### @jamilservices/types-helper
-####Personal type validation help module for javascript.
+### @jamilservices/types-helper  
+#### Personal type validation help module for javascript.
 
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
@@ -27,8 +27,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/jamilservicos/jamilservices-types-helper/blob/main/LICENSE)
 
 
-####Installation ways:
-
+#### Installation ways:  
 - from github:
 ```
 npm install --save git+https://github.com/jamilservicos/jamilservices-types-helper.git
@@ -40,7 +39,7 @@ npm install --save @jamilservices/types-helper
 yarn add @jamilservices/types-helper
 ```
 
-> ###Object Parameters:
+> ### Object Parameters:  
 >**data:** *value to be validated.*  
 >**types:** *single type informed as string(example1), or several types informed as string inside an array(example2).*  
 >**example1:**
@@ -52,7 +51,7 @@ yarn add @jamilservices/types-helper
 >types: ["number", "integer"]
 >```  
 
-####Example of use:  
+#### Example of use:  
 ~~~javascript
 "use strict";
 const check = require("@jamilservices/types-helper");
@@ -78,18 +77,18 @@ const example = (name, value) => {
 example("string",1);
 ~~~  
 
-## License  
+### License  
 Released under [MIT](/LICENSE) by [@jamilservicos](https://github.com/jamilservicos).  
 * You can freely modify and reuse.
 * The original license must be included with copies of this software.
 * Please link back to this repo if you use a significant portion the source code.
 
 
-## 👩‍💻💻 Technologies
+### 👩‍💻💻 Technologies
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
 
-## 💲 Donate
+### 💲 Donate
 ![Bitcoin](https://img.shields.io/badge/1BrKxKsspVs3uR1ctAPfudLY38Tdw6yU3R-000000?style=for-the-badge&label=BTC&color=F7931A&labelColor=black)
 ![Dogecoin](https://img.shields.io/badge/DEj13YitqbqkWAidQVMHe6KHpgJeVP34jN-C2A633?style=for-the-badge&label=DOGE&color=C2A633&labelColor=black)
 ![Tron](https://img.shields.io/badge/DEj13YitqbqkWAidQVMHe6KHpgJeVP34jN-f60614?style=for-the-badge&label=TRX&color=f60614&labelColor=black)
