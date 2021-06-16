@@ -15,6 +15,7 @@
 
 [![Libraries.io - @jamilservices/types-helper](https://img.shields.io/badge/Libraries.io-%40jamilservices%2Ftypes--helper-blue?logo=Libraries.io&logoColor=white)](https://libraries.io/npm/@jamilservices%2Ftypes-helper)
 [![Libraries.io SourceRank, scoped npm package](https://img.shields.io/librariesio/sourcerank/npm/@jamilservices/types-helper?logo=Libraries.io&logoColor=white&color=sucess)](https://libraries.io/npm/@jamilservices%2Ftypes-helper)
+[![Rate on Openbase](https://badges.openbase.com/js/rating/@jamilservices/types-helper.svg)](https://openbase.com/js/@jamilservices/types-helper?utm_source=embedded&utm_medium=badge&utm_campaign=rate-badge)
 
 ![npm (custom registry)](https://img.shields.io/npm/v/@jamilservices/types-helper/latest?registry_uri=https%3A%2F%2Fregistry.npmjs.com&logo=npm)
 ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/@jamilservices/types-helper/latest?logo=npm)
