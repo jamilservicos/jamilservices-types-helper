@@ -14,6 +14,22 @@ const responseSwitch = (response, boolean) => {
 };
 
 /**
+ * @function responseString
+ * @param {Object} obj
+ * @param {Boolean} boolean
+ * @returns {{error: TypeException}|boolean}
+ */
+const responseString = (obj, boolean) => {
+    const {data, types} = obj;
+    if (typeof data === types) return true;
+    if (customTypes[types]) {
+        const response = customTypes[types](data);
+        if(typeof response !== "undefined") return responseSwitch(response, boolean);
+    }
+    return responseSwitch(responseError(obj), boolean);
+};
+
+/**
  * @function typesHelper
  * @param {Array} obj - The object containing data and types for validation.
  * @param {any} obj.data - custom data to be validated.
@@ -22,20 +38,17 @@ const responseSwitch = (response, boolean) => {
  * @returns {{error: TypeException}|boolean}
  */
 const typesHelper = (obj, boolean = false) => {
-    let response = responseError({
-        data: obj,
-        type: "object"
-    });
     if (typeof obj === "object") {
-        const {data, types} = obj;
-        if ((typeof types === "object") && (Array.isArray(types))) return responseSwitch(typesCheck(obj), boolean);
-        if (typeof types === "string") {
-            if (typeof data === types) return true;
-            if (customTypes[types]) return responseSwitch(customTypes[types](data), boolean);
-        }
-        return responseSwitch(obj, boolean);
+        const {types} = obj;
+        if (typeof types === "string") return responseString(obj, boolean);
+        if (Array.isArray(types)) return responseSwitch(typesCheck(obj), boolean);
+        return responseSwitch(responseError(obj), boolean);
+    } else {
+        return responseSwitch(responseError({
+            obj,
+            types: "object"
+        }), boolean);
     }
-    return responseSwitch(response, boolean);
 };
 
 /**
