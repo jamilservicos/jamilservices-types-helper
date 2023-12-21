@@ -11,3 +11,4 @@ Released under [MIT](/LICENSE) by [@jamilservicos](https://github.com/jamilservi
 ### 👩‍💻💻 Technologies
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
+
