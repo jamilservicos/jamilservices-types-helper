@@ -3,7 +3,7 @@
 
 [![OS - Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux&logoColor=white)](https://www.linux.org/)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
-[![Made with Node.js](https://img.shields.io/badge/Node.js->=14-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Made with Node.js](https://img.shields.io/badge/Node.js->=18.19-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![npm - @jamilservices/types-helper](https://img.shields.io/badge/npm-%40jamilservices%2Ftypes--helper-blue?logo=npm&logoColor=white)](https://www.npmjs.com/package/@jamilservices/types-helper)
 [![yarn - @jamilservices/types-helper](https://img.shields.io/badge/yarn-%40jamilservices%2Ftypes--helper-blue?logo=yarn&logoColor=white)](https://yarnpkg.com/package/@jamilservices/types-helper)
 
@@ -89,9 +89,3 @@ Released under [MIT](/LICENSE) by [@jamilservicos](https://github.com/jamilservi
 ### 👩‍💻💻 Technologies
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
-
-### 💲 Donate
-![Bitcoin](https://img.shields.io/badge/1BrKxKsspVs3uR1ctAPfudLY38Tdw6yU3R-000000?style=for-the-badge&label=BTC&color=F7931A&labelColor=black)
-![Dogecoin](https://img.shields.io/badge/DEj13YitqbqkWAidQVMHe6KHpgJeVP34jN-C2A633?style=for-the-badge&label=DOGE&color=C2A633&labelColor=black)
-![Tron](https://img.shields.io/badge/DEj13YitqbqkWAidQVMHe6KHpgJeVP34jN-f60614?style=for-the-badge&label=TRX&color=f60614&labelColor=black)
-![Waves](https://img.shields.io/badge/3PQA4gjdQJcSzHhxZLbdhoWjkjrFEXmTqqw-1c55ce?style=for-the-badge&label=WAVES&color=1c55ce&labelColor=black)
