@@ -17,10 +17,12 @@
     "node": ">=20.10.x"
   },
   "keywords": [
+    "jamilservicos",
     "jamilservices",
     "types",
     "nodejs",
     "javascript",
+    "types-helper",
     "helper"
   ],
   "scripts": {
