@@ -28,6 +28,7 @@
   "scripts": {
     "docs": "npx jsdoc -c jsdoc.json",
     "tests": "node --test --test-reporter spec --watch -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js"
+    "tests:ci": "node --test --test-reporter spec -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js"
   },
   "directories": {
     "example": "examples",
