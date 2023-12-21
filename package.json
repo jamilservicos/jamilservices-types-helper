@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "docs": "npx jsdoc -c jsdoc.json",
-    "tests": "node --test --test-reporter spec --watch -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js",
+    "tests": "node --test --test-reporter spec -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js",
     "tests:ci": "node --test --test-reporter spec -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js",
     "examples:all": "node examples/use_cases",
     "examples:only-boolean": "node examples/use_cases/only_boolean",
