@@ -14,7 +14,7 @@
   "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
   "license": "MIT",
   "engines": {
-    "node": ">=18.19.x"
+    "node": ">=20.10.x"
   },
   "keywords": [
     "jamilservices",
@@ -24,11 +24,11 @@
     "helper"
   ],
   "scripts": {
-    "docs": "jsdoc -c jsdoc.json"
+    "docs": "npx jsdoc -c jsdoc.json",
+    "tests": "node --test --test-reporter spec --watch -r ./test/setup.js ./src/*.spec.js ./src/**/*.spec.js"
   },
   "directories": {
     "example": "examples",
     "test": "test"
-  },
-  "devDependencies": {}
+  }
 }
