@@ -14,7 +14,7 @@
   "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=18.19.x"
   },
   "keywords": [
     "jamilservices",
@@ -23,6 +23,12 @@
     "javascript",
     "helper"
   ],
-  "scripts": {},
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
   "devDependencies": {}
 }
