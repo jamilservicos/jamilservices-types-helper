@@ -1,7 +1,7 @@
 "use strict";
 
+/*
 const util = require('util');
-
 class TypeException extends Error {
     constructor(data, type) {
         const code = "TypeError";
@@ -17,7 +17,6 @@ class TypeException extends Error {
         return this.message;
     }
 }
-
 const custom = {
     integer: (x) => {
         if (Number.isInteger(x)) return true;
@@ -56,14 +55,7 @@ const custom = {
         return undefined;
     },
 };
-
 const custom_types = new Set(Object.keys(custom));
-
-/**
- * @param {*} data
- * @param {object} types
- * @return {(boolean || object)}
- */
 const types_check = (data, types) => {
     const onerror = {error: new TypeException(data, types)};
     const t = new Set(types);
@@ -83,7 +75,7 @@ const types_check = (data, types) => {
         }
     } else return onerror;
 };
-
+*/
 /**
  * @param {object} o
  * @param {*} o.data
