@@ -15,8 +15,10 @@ const responseSwitch = (response, boolean) => {
 
 /**
  * @function typesHelper
- * @param {Object} obj
- * @param {Boolean} boolean
+ * @param {Array} obj - The object containing data and types for validation.
+ * @param {any} obj.data - custom data to be validated.
+ * @param {Array.<string>|string} obj.types - Array of strings or single string of types names to be validated.
+ * @param {Boolean} boolean - if active it only responds in boolean
  * @returns {{error: TypeException}|boolean}
  */
 const typesHelper = (obj, boolean = false) => {
@@ -29,7 +31,7 @@ const typesHelper = (obj, boolean = false) => {
         if ((typeof types === "object") && (Array.isArray(types))) return responseSwitch(typesCheck(obj), boolean);
         if (typeof types === "string") {
             if (typeof data === types) return true;
-            if (typesCheck.has(types)) return responseSwitch(customTypes[types](data), boolean);
+            if (customTypes[types]) return responseSwitch(customTypes[types](data), boolean);
         }
         return responseSwitch(obj, boolean);
     }
