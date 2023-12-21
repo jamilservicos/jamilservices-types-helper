@@ -1,23 +1,42 @@
 *
 
-!src/
-!src/**
+!.gitignore
 
 !.github/
 !.github/**
 
-!examples/
-!examples/**
+!src/
+!src/**
 
 !test/
 !test/**
 
-!.gitignore
+!package.json
 
 !CHANGELOG.md
-!LICENSE
-!package.json
-!package-lock.json
 !README.md
+!AUTHORS
+!LICENSE
 
-olds-olny-storage
+!examples/
+!examples/**
+
+!release.config.cjs
+
+!jsdoc.json
+
+!benchmark.js
+
+.npmrc
+
+!package-lock.json
+
+docs/source/
+src/**/node_modules
+src/.env
+.env
+
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
