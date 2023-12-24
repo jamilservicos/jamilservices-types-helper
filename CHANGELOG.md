@@ -2,8 +2,46 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.1](https://github.com/jamilservicos/jamilservices-types-helper/tree/1.0.1) - 2023-12-23
+
+### Added
+
+- Tag and Release: [1.0.1](https://github.com/jamilservicos/jamilservices-types-helper/releases/tag/1.0.1)
+
+### Fixed
+
+- Improve documentation and jsdoc annotations
+
+### Changed
+
+- update README.md.
+- package.json (Bump patch version update).
+
+
+## [1.0.0](https://github.com/jamilservicos/jamilservices-types-helper/tree/1.0.0) - 2023-12-21
+
+#### Added
+
+- new optional feature to return only true/false and tests
+- ci to `npm run tests`
+
+### Fixed
+
+- Improve code architecture and organization.
+- Fix small bugs
+
+### Changed
+
+- ci to manual trigger
+- remove "jdoc" dependency and replace to use npx
+- remove "jest" dependency and replace with native tests of node-v20+
+- remove import as function and replace with default object `types Helper`
+- minimum compatible version of Node.js change to 20.10
+- update package.json settings
+- package.json (Bump `engines.node` version and major version update).
 
 
 ## [0.1.3](https://github.com/jamilservicos/jamilservices-types-helper/tree/0.1.3) - 2021-07-19
