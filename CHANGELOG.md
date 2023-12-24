@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Tag and Release: [1.0.1](https://github.com/jamilservicos/jamilservices-types-helper/releases/tag/1.0.1)
 
+### Fixed
+
+- Improve documentation and jsdoc annotations
+
 ### Changed
 
 - update README.md.
