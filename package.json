@@ -1,6 +1,6 @@
 {
   "name": "@jamilservices/types-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal type validation help module for javascript.",
   "main": "src/main.js",
   "homepage": "https://github.com/jamilservicos/jamilservices-types-helper/blob/main/README.md",
